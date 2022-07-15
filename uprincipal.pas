@@ -9,7 +9,9 @@ uses
 type
   TfrmPrincipal = class(TForm)
     btnTeste1: TBitBtn;
+    btnTeste2: TBitBtn;
     procedure btnTeste1Click(Sender: TObject);
+    procedure btnTeste2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,6 +28,11 @@ implementation
 procedure TfrmPrincipal.btnTeste1Click(Sender: TObject);
 begin
   ShowMessage('Teste 1');
+end;
+
+procedure TfrmPrincipal.btnTeste2Click(Sender: TObject);
+begin
+  ShowMessage('Teste 2');
 end;
 
 end.
