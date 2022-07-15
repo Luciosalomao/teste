@@ -10,6 +10,8 @@ type
   TfrmPrincipal = class(TForm)
     btnTeste1: TBitBtn;
     btnTeste2: TBitBtn;
+    lblMensagem: TLabel;
+    memo1: TMemo;
     procedure btnTeste1Click(Sender: TObject);
     procedure btnTeste2Click(Sender: TObject);
   private
