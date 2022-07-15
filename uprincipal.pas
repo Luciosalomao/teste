@@ -12,8 +12,10 @@ type
     btnTeste2: TBitBtn;
     lblMensagem: TLabel;
     memo1: TMemo;
+    btnShow: TBitBtn;
     procedure btnTeste1Click(Sender: TObject);
     procedure btnTeste2Click(Sender: TObject);
+    procedure btnShowClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,6 +28,11 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TfrmPrincipal.btnShowClick(Sender: TObject);
+begin
+  memo1.Lines.Add('Olá!!!');
+end;
 
 procedure TfrmPrincipal.btnTeste1Click(Sender: TObject);
 begin
