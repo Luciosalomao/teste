@@ -46,4 +46,13 @@ object frmPrincipal: TfrmPrincipal
     Height = 78
     TabOrder = 2
   end
+  object btnShow: TBitBtn
+    Left = 395
+    Top = 152
+    Width = 75
+    Height = 25
+    Caption = 'Show'
+    TabOrder = 3
+    OnClick = btnShowClick
+  end
 end
