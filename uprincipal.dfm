@@ -14,6 +14,13 @@ object frmPrincipal: TfrmPrincipal
   Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
+  object lblMensagem: TLabel
+    Left = 8
+    Top = 16
+    Width = 55
+    Height = 13
+    Caption = 'Mensagem:'
+  end
   object btnTeste1: TBitBtn
     Left = 395
     Top = 72
@@ -31,5 +38,12 @@ object frmPrincipal: TfrmPrincipal
     Caption = 'Teste 2'
     TabOrder = 1
     OnClick = btnTeste2Click
+  end
+  object memo1: TMemo
+    Left = 8
+    Top = 35
+    Width = 369
+    Height = 78
+    TabOrder = 2
   end
 end
