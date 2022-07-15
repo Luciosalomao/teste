@@ -31,7 +31,7 @@ implementation
 
 procedure TfrmPrincipal.btnShowClick(Sender: TObject);
 begin
-  memo1.Lines.Add('Olá!!!');
+  memo1.Lines.Add('Olá!!! Mais um teste');
 end;
 
 procedure TfrmPrincipal.btnTeste1Click(Sender: TObject);
