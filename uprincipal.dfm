@@ -23,4 +23,13 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 0
     OnClick = btnTeste1Click
   end
+  object btnTeste2: TBitBtn
+    Left = 395
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'Teste 2'
+    TabOrder = 1
+    OnClick = btnTeste2Click
+  end
 end
